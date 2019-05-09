@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TestNewsApp</string>
+    <string name="str_about">About</string>
+    <string name="str_heading_detail">Article Detail</string>
+</resources>

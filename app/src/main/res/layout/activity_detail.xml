@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <include layout="@layout/toolbar"/>
+
+    <ImageView
+            android:id="@+id/img_article"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/ic_launcher"/>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_article_title"
+            android:layout_margin="8dp"
+            style="@style/TextAppearance.Text.Bold"
+            android:textSize="16sp"/>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_article_description"
+            android:layout_margin="8dp"
+            style="@style/TextAppearance.Text.Regular"
+            android:textSize="16sp"/>
+
+    <TextView
+            android:id="@+id/tv_domain"
+            android:layout_width="wrap_content"
+            android:layout_gravity="end"
+            android:layout_margin="4dp"
+            android:layout_height="wrap_content"
+            android:textSize="13sp"
+            android:textColor="@color/accent"/>
+
+    <TextView
+            android:id="@+id/tv_published_at"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="13sp"
+            android:layout_margin="4dp"
+            android:layout_gravity="end"
+            android:textColor="@color/secondary_text"/>
+
+</LinearLayout>
